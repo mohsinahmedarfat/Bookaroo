@@ -1,0 +1,362 @@
+[
+  {
+    "bookName": "A Culture of Promise",
+    "bookImage": "https://i.ibb.co/0y8yMqW/A-Culture-of-Promise.jpg",
+    "description": "Explores the foundations of building a culture rooted in trust, transparency, and promise.",
+    "price": 18.99,
+    "category": "Non-Fiction",
+    "ratings": 4.5,
+    "bookCreationDate": "01/08/2024"
+  },
+  {
+    "bookName": "Accounting Fundamentals",
+    "bookImage": "https://i.ibb.co/gm3HwQm/Accounting-Fundamentals.jpg",
+    "description": "A comprehensive guide to the basics of accounting for students and professionals.",
+    "price": 22.5,
+    "category": "Educational",
+    "ratings": 4.7,
+    "bookCreationDate": "02/08/2024"
+  },
+  {
+    "bookName": "AI Made Simple",
+    "bookImage": "https://i.ibb.co/0BXRmQ7/AI-Made-Simple.jpg",
+    "description": "An introductory book that demystifies artificial intelligence for beginners.",
+    "price": 25.0,
+    "category": "Educational",
+    "ratings": 4.6,
+    "bookCreationDate": "03/08/2024"
+  },
+  {
+    "bookName": "Baby Money Soldiers",
+    "bookImage": "https://i.ibb.co/k1bZRRD/Baby-Money-Soldiers.jpg",
+    "description": "A heartwarming tale of childhood dreams and financial literacy.",
+    "price": 14.99,
+    "category": "Fiction",
+    "ratings": 4.2,
+    "bookCreationDate": "04/08/2024"
+  },
+  {
+    "bookName": "Balanced Accountability",
+    "bookImage": "https://i.ibb.co/MVTLd0H/Balanced-Accountability.jpg",
+    "description": "Learn the principles of maintaining accountability in personal and professional life.",
+    "price": 19.99,
+    "category": "Non-Fiction",
+    "ratings": 4.8,
+    "bookCreationDate": "05/08/2024"
+  },
+  {
+    "bookName": "Communicate with Courage",
+    "bookImage": "https://i.ibb.co/j61ZZZp/Communicate-with-Courage.jpg",
+    "description": "A guide to developing effective communication skills in challenging situations.",
+    "price": 16.5,
+    "category": "Non-Fiction",
+    "ratings": 4.4,
+    "bookCreationDate": "06/08/2024"
+  },
+  {
+    "bookName": "Do Bigger Things",
+    "bookImage": "https://i.ibb.co/GxLLZL7/Do-Bigger-Things.jpg",
+    "description": "Inspiration and strategies for setting and achieving bigger goals.",
+    "price": 21.99,
+    "category": "Non-Fiction",
+    "ratings": 4.9,
+    "bookCreationDate": "07/08/2024"
+  },
+  {
+    "bookName": "Economix",
+    "bookImage": "https://i.ibb.co/XJnLpQ8/Economix.jpg",
+    "description": "A graphic novel that explains economics in a fun and engaging way.",
+    "price": 12.99,
+    "category": "Comics",
+    "ratings": 4.7,
+    "bookCreationDate": "08/08/2024"
+  },
+  {
+    "bookName": "Every Single Day",
+    "bookImage": "https://i.ibb.co/7SCWJSz/Every-Single-Day.jpg",
+    "description": "A motivational guide to developing daily habits that lead to success.",
+    "price": 17.99,
+    "category": "Non-Fiction",
+    "ratings": 4.5,
+    "bookCreationDate": "09/08/2024"
+  },
+  {
+    "bookName": "Failing Fast",
+    "bookImage": "https://i.ibb.co/kSyRP0S/Failing-Fast.jpg",
+    "description": "A deep dive into the benefits of failing fast and learning from mistakes.",
+    "price": 15.99,
+    "category": "Non-Fiction",
+    "ratings": 4.3,
+    "bookCreationDate": "10/08/2024"
+  },
+  {
+    "bookName": "Growing Wealth in Self-Storage 2.0",
+    "bookImage": "https://i.ibb.co/g7hJMnG/Growing-Wealth-in-Self-Storage-2-0.jpg",
+    "description": "Learn the secrets of investing in self-storage facilities to build wealth.",
+    "price": 29.99,
+    "category": "Non-Fiction",
+    "ratings": 4.6,
+    "bookCreationDate": "11/08/2024"
+  },
+  {
+    "bookName": "Ice Breakers",
+    "bookImage": "https://i.ibb.co/ts8r9Js/Ice-Breakers.jpg",
+    "description": "Techniques and tips for breaking the ice in social and professional settings.",
+    "price": 12.5,
+    "category": "Non-Fiction",
+    "ratings": 4.2,
+    "bookCreationDate": "12/08/2024"
+  },
+  {
+    "bookName": "Informed Divorce",
+    "bookImage": "https://i.ibb.co/MVP9xLM/Informed-Divorce.jpg",
+    "description": "A comprehensive guide to navigating the complexities of divorce with clarity.",
+    "price": 24.99,
+    "category": "Non-Fiction",
+    "ratings": 4.4,
+    "bookCreationDate": "13/08/2024"
+  },
+  {
+    "bookName": "Land of the Dead",
+    "bookImage": "https://i.ibb.co/BnH5qW8/Land-of-the-Dead.jpg",
+    "description": "An epic tale of survival in a post-apocalyptic world.",
+    "price": 18.0,
+    "category": "Fiction",
+    "ratings": 4.8,
+    "bookCreationDate": "14/08/2024"
+  },
+  {
+    "bookName": "Leading for Impact",
+    "bookImage": "https://i.ibb.co/wLF09Hj/Leading-for-Impact.jpg",
+    "description": "Strategies for leaders who want to make a significant impact in their organizations.",
+    "price": 22.0,
+    "category": "Non-Fiction",
+    "ratings": 4.9,
+    "bookCreationDate": "15/08/2024"
+  },
+  {
+    "bookName": "Let's Talk About It",
+    "bookImage": "https://i.ibb.co/f4fbq6H/Let-s-Talk-About-It.jpg",
+    "description": "A book that encourages open and honest conversations about difficult topics.",
+    "price": 14.99,
+    "category": "Non-Fiction",
+    "ratings": 4.3,
+    "bookCreationDate": "16/08/2024"
+  },
+  {
+    "bookName": "Magnetic Millionaire",
+    "bookImage": "https://i.ibb.co/VStkQQ5/Magnetic-Millionaire.jpg",
+    "description": "Uncover the secrets to attracting wealth and abundance into your life.",
+    "price": 19.99,
+    "category": "Non-Fiction",
+    "ratings": 4.7,
+    "bookCreationDate": "17/08/2024"
+  },
+  {
+    "bookName": "Mastering Executive Transitions",
+    "bookImage": "https://i.ibb.co/p15dYG0/Mastering-Executive-Transitions.jpg",
+    "description": "A guide for executives navigating major career transitions.",
+    "price": 25.0,
+    "category": "Non-Fiction",
+    "ratings": 4.5,
+    "bookCreationDate": "18/08/2024"
+  },
+  {
+    "bookName": "Nat Turner",
+    "bookImage": "https://i.ibb.co/G5TY2Ds/Nat-Turner.jpg",
+    "description": "A historical account of Nat Turner's rebellion and its impact on America.",
+    "price": 20.0,
+    "category": "Non-Fiction",
+    "ratings": 4.6,
+    "bookCreationDate": "19/08/2024"
+  },
+  {
+    "bookName": "Navigating Assisted Living",
+    "bookImage": "https://i.ibb.co/qJSbF2N/Navigating-Assisted-Living.jpg",
+    "description": "A comprehensive guide to navigating assisted living options for loved ones.",
+    "price": 23.99,
+    "category": "Non-Fiction",
+    "ratings": 4.4,
+    "bookCreationDate": "20/08/2024"
+  },
+  {
+    "bookName": "Odyssey of High Hopes",
+    "bookImage": "https://i.ibb.co/7t5DryJ/Odyssey-of-High-Hopes.jpg",
+    "description": "An inspiring story of overcoming obstacles to achieve one's dreams.",
+    "price": 19.5,
+    "category": "Fiction",
+    "ratings": 4.7,
+    "bookCreationDate": "21/08/2024"
+  },
+  {
+    "bookName": "Path Blocked",
+    "bookImage": "https://i.ibb.co/2Pp2GqT/Path-Blocked.jpg",
+    "description": "A suspenseful novel about unexpected roadblocks in a journey of discovery.",
+    "price": 16.99,
+    "category": "Fiction",
+    "ratings": 4.4,
+    "bookCreationDate": "22/08/2024"
+  },
+  {
+    "bookName": "Profit-Driven Digital Marketing",
+    "bookImage": "https://i.ibb.co/rkjnSZ8/Profit-Driven-Digital-Marketing.jpg",
+    "description": "Strategies and techniques for maximizing profits through digital marketing.",
+    "price": 27.0,
+    "category": "Non-Fiction",
+    "ratings": 4.6,
+    "bookCreationDate": "23/08/2024"
+  },
+  {
+    "bookName": "Reimagining America's Dream",
+    "bookImage": "https://i.ibb.co/gtLYtx4/Reimagining-America-s-Dream.jpg",
+    "description": "A thought-provoking exploration of America's evolving vision of success.",
+    "price": 20.5,
+    "category": "Non-Fiction",
+    "ratings": 4.5,
+    "bookCreationDate": "24/08/2024"
+  },
+  {
+    "bookName": "Science Comics",
+    "bookImage": "https://i.ibb.co/vJDrWzh/Science-Comics.jpg",
+    "description": "A comic book series that makes complex scientific concepts accessible and entertaining.",
+    "price": 15.0,
+    "category": "Comics",
+    "ratings": 4.8,
+    "bookCreationDate": "25/08/2024"
+  },
+  {
+    "bookName": "Seeking Fairness at Work",
+    "bookImage": "https://i.ibb.co/nf0d1qy/Seeking-Fairness-at-Work.jpg",
+    "description": "Guidance on advocating for fairness and equity in the workplace.",
+    "price": 18.75,
+    "category": "Non-Fiction",
+    "ratings": 4.4,
+    "bookCreationDate": "26/08/2024"
+  },
+  {
+    "bookName": "Slam Dunk Job Search",
+    "bookImage": "https://i.ibb.co/JWTk9jg/Slam-Dunk-Job-Search.jpg",
+    "description": "Tips and strategies for achieving success in the competitive job market.",
+    "price": 17.5,
+    "category": "Non-Fiction",
+    "ratings": 4.6,
+    "bookCreationDate": "27/08/2024"
+  },
+  {
+    "bookName": "The ABCs of Space",
+    "bookImage": "https://i.ibb.co/NxnZ9Nd/The-ABCs-of-Space.jpg",
+    "description": "An engaging introduction to the wonders of space for young readers.",
+    "price": 14.99,
+    "category": "Educational",
+    "ratings": 4.7,
+    "bookCreationDate": "28/08/2024"
+  },
+  {
+    "bookName": "The Best We Could Do",
+    "bookImage": "https://i.ibb.co/mDmFnPD/The-Best-We-Could-Do.jpg",
+    "description": "A memoir in graphic novel form about family, resilience, and the immigrant experience.",
+    "price": 23.99,
+    "category": "Comics",
+    "ratings": 4.8,
+    "bookCreationDate": "29/08/2024"
+  },
+  {
+    "bookName": "The Gettysburg Address",
+    "bookImage": "https://i.ibb.co/ZSxvvdP/The-Gettysburg-Address.jpg",
+    "description": "A historical reflection on the iconic Gettysburg Address and its impact on American history.",
+    "price": 12.99,
+    "category": "Non-Fiction",
+    "ratings": 4.9,
+    "bookCreationDate": "30/08/2024"
+  },
+  {
+    "bookName": "The Rational Universe",
+    "bookImage": "https://i.ibb.co/0mCRDXw/THE-RATIONAL-UNIVERSE.jpg",
+    "description": "A philosophical exploration of the universe and its underlying rational principles.",
+    "price": 21.0,
+    "category": "Non-Fiction",
+    "ratings": 4.6,
+    "bookCreationDate": "31/08/2024"
+  },
+  {
+    "bookName": "The Rising Leader Handbook",
+    "bookImage": "https://i.ibb.co/sqHJvVx/The-Rising-Leader-Handbook.jpg",
+    "description": "Essential strategies and skills for emerging leaders in any field.",
+    "price": 22.5,
+    "category": "Non-Fiction",
+    "ratings": 4.8,
+    "bookCreationDate": "01/09/2024"
+  },
+  {
+    "bookName": "The Sales Skills Book",
+    "bookImage": "https://i.ibb.co/YBTpq6X/The-Sales-Skills-Book.jpg",
+    "description": "A comprehensive guide to mastering sales techniques and closing deals effectively.",
+    "price": 18.0,
+    "category": "Non-Fiction",
+    "ratings": 4.7,
+    "bookCreationDate": "02/09/2024"
+  },
+  {
+    "bookName": "The Success Paradox",
+    "bookImage": "https://i.ibb.co/dKxQ43X/The-Success-Paradox.jpg",
+    "description": "Analyzes the paradoxes and challenges of achieving success in modern life.",
+    "price": 20.0,
+    "category": "Non-Fiction",
+    "ratings": 4.5,
+    "bookCreationDate": "03/09/2024"
+  },
+  {
+    "bookName": "The Two Pillars of Power",
+    "bookImage": "https://i.ibb.co/1Z65H9z/The-Two-Pillars-of-Power.jpg",
+    "description": "Explores the dual aspects of power and influence in personal and professional spheres.",
+    "price": 24.5,
+    "category": "Non-Fiction",
+    "ratings": 4.6,
+    "bookCreationDate": "04/09/2024"
+  },
+  {
+    "bookName": "The Unconquerable Leader",
+    "bookImage": "https://i.ibb.co/SVN0Q5B/The-Unconquerable-Leader.jpg",
+    "description": "A guide to developing resilience and leadership skills in challenging times.",
+    "price": 26.0,
+    "category": "Non-Fiction",
+    "ratings": 4.8,
+    "bookCreationDate": "05/09/2024"
+  },
+  {
+    "bookName": "The Wimpy Kid Movie Diary",
+    "bookImage": "https://i.ibb.co/92ycm2m/The-Wimpy-Kid-Movie-Diary.jpg",
+    "description": "Behind-the-scenes look at the making of the Wimpy Kid movies, full of fun facts and anecdotes.",
+    "price": 13.5,
+    "category": "Comics",
+    "ratings": 4.4,
+    "bookCreationDate": "06/09/2024"
+  },
+  {
+    "bookName": "To Teach",
+    "bookImage": "https://i.ibb.co/nc0vn3d/To-Teach.jpg",
+    "description": "A profound examination of the teaching profession and the art of educating.",
+    "price": 21.99,
+    "category": "Educational",
+    "ratings": 4.7,
+    "bookCreationDate": "07/09/2024"
+  },
+  {
+    "bookName": "Totally Random",
+    "bookImage": "https://i.ibb.co/gw4Yht6/Totally-Random.jpg",
+    "description": "A collection of quirky and random facts that are sure to entertain and inform.",
+    "price": 14.0,
+    "category": "Non-Fiction",
+    "ratings": 4.2,
+    "bookCreationDate": "08/09/2024"
+  },
+  {
+    "bookName": "Wait What",
+    "bookImage": "https://i.ibb.co/W6JZZcq/Wait-What.jpg",
+    "description": "A humorous take on the most unexpected and amusing life moments.",
+    "price": 16.75,
+    "category": "Fiction",
+    "ratings": 4.3,
+    "bookCreationDate": "09/09/2024"
+  }
+]
