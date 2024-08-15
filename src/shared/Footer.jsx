@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="footer bg-[#D6EFD8] text-black items-center py-1 px-4 justify-between ">
+    <footer className="footer bg-[#D6EFD8] text-black items-center py-1 px-4 justify-between mt-10">
       <aside className="grid-flow-col items-center">
         <img
           src="/src/assets/Images/Bookaroo.png"

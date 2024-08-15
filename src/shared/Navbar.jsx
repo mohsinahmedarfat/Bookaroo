@@ -1,8 +1,19 @@
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   const navItems = (
     <>
       <li className="font-medium">
-        <a>Books</a>
+        <NavLink
+          to="/books"
+          className={({ isActive }) =>
+            isActive
+              ? "mx-2 py-2 border-2 border-b-emerald-700 border-transparent text-[#1A5319]"
+              : "mx-2 py-2 border-2 hover:border-2 hover:border-b-emerald-700 border-transparent hover:text-[#1A5319]"
+          }
+        >
+          Books
+        </NavLink>
       </li>
     </>
   );
@@ -42,9 +53,9 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <div className="hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{navItems}</ul>
+          <ul className="menu-horizontal px-1">{navItems}</ul>
         </div>
-        <a className="btn bg-[#B0D9B1]">Sign in</a>
+        <a className="btn btn-sm bg-[#B0D9B1]">Sign in</a>
       </div>
     </div>
   );
