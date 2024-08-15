@@ -1,14 +1,8 @@
 const Navbar = () => {
   const navItems = (
     <>
-      <li>
-        <a>Item 1</a>
-      </li>
-      <li>
-        <a>Item 1</a>
-      </li>
-      <li>
-        <a>Item 1</a>
+      <li className="font-medium">
+        <a>Books</a>
       </li>
     </>
   );
@@ -46,10 +40,10 @@ const Navbar = () => {
           alt=""
         />
       </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navItems}</ul>
-      </div>
       <div className="navbar-end">
+        <div className="hidden lg:flex">
+          <ul className="menu menu-horizontal px-1">{navItems}</ul>
+        </div>
         <a className="btn bg-[#B0D9B1]">Sign in</a>
       </div>
     </div>
