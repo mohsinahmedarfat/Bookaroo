@@ -1,6 +1,26 @@
+import { FaStar } from "react-icons/fa";
+import useAxiosPublic from "../../hooks/useAxiosPublic";
+import { useQuery } from "@tanstack/react-query";
+
 const Books = () => {
+  const axiosPublic = useAxiosPublic();
+
+  const {
+    data: books = [],
+    isLoading,
+    refetch,
+  } = useQuery({
+    queryKey: ["books"],
+    queryFn: async () => {
+      const { data } = await axiosPublic.get("/books");
+      return data;
+    },
+  });
+
+  console.log(books);
+
   return (
-    <div className="">
+    <div className="my-10">
       <h1>books are here...</h1>
 
       <div className="card bg-base-100 w-96 shadow-xl">
@@ -16,10 +36,10 @@ const Books = () => {
             Explores the foundations of building a culture rooted in trust,
             transparency, and promise.
           </p>
-          <div className="font-">
+          <div className="font-medium">
             <span>Non-Fiction</span> <span className="mx-2 font-bold">|</span>{" "}
-            <span>4.5</span> <span className="mx-2 font-bold">|</span>{" "}
-            <span>01/08/2024</span>
+            <span>4.5</span> <FaStar />{" "}
+            <span className="mx-2 font-bold">|</span> <span>01/08/2024</span>
           </div>
           <h2 className="text-2xl font-medium">$18.99</h2>
           <div className="card-actions">
