@@ -59,11 +59,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/">
-          <img
-            src="/src/assets/Images/Bookaroo.png"
-            className="h-12 w-16"
-            alt=""
-          />
+          <img src="/public/Bookaroo.png" className="h-12 w-16" alt="" />
         </Link>
       </div>
       <div className="navbar-end">
@@ -82,7 +78,7 @@ const Navbar = () => {
                 <div className="w-10 rounded-full">
                   <img
                     alt="Tailwind CSS Navbar component"
-                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                    src={user?.PhotoURL}
                   />
                 </div>
               </div>

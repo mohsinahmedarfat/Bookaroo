@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const axiosPublic = axios.create({
-  baseURL: "http://localhost:5000",
-  // baseURL: "live server url"
+  // baseURL: "http://localhost:5000",
+  baseURL: "https://bookaroo-server-omega.vercel.app",
 });
 
 const useAxiosPublic = () => {
