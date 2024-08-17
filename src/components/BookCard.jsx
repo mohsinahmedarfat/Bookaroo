@@ -18,10 +18,10 @@ const BookCard = ({ book }) => {
       <div className="card-body p-4 items-center text-center">
         <h2 className="card-title">{bookName}</h2>
         <p>{description}</p>
-        <div className="font-medium">
+        <div className="flex font-medium">
           <span>{category}</span>
           <span className="mx-2 font-bold">|</span>
-          <span>
+          <span className="flex justify-center items-center gap-2">
             {ratings} <FaStar />
           </span>
           <span className="mx-2 font-bold">|</span>

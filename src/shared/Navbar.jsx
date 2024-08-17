@@ -1,9 +1,19 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navItems = (
     <>
       <li className="font-medium">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive
+              ? "mx-2 py-2 border-2 border-b-emerald-700 border-transparent text-[#1A5319]"
+              : "mx-2 py-2 border-2 hover:border-2 hover:border-b-emerald-700 border-transparent hover:text-[#1A5319]"
+          }
+        >
+          Home
+        </NavLink>
         <NavLink
           to="/books"
           className={({ isActive }) =>
@@ -45,17 +55,23 @@ const Navbar = () => {
             {navItems}
           </ul>
         </div>
-        <img
-          src="/src/assets/Images/Bookaroo.png"
-          className="h-12 w-16"
-          alt=""
-        />
+        <Link to="/">
+          <img
+            src="/src/assets/Images/Bookaroo.png"
+            className="h-12 w-16"
+            alt=""
+          />
+        </Link>
       </div>
       <div className="navbar-end">
         <div className="hidden lg:flex">
           <ul className="menu-horizontal px-1">{navItems}</ul>
         </div>
-        <a className="btn btn-sm bg-[#B0D9B1]">Sign in</a>
+        <div>
+          <Link to="/login">
+            <button className="btn btn-sm bg-[#B0D9B1]">Sign in</button>
+          </Link>
+        </div>
       </div>
     </div>
   );
