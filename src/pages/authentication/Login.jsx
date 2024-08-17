@@ -1,14 +1,32 @@
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
+import toast from "react-hot-toast";
 
 const Login = () => {
+  const { login } = useAuth();
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {
+    const { email, password } = data;
+    console.log(data);
+
+    try {
+      await login(email, password);
+
+      toast.success("Login successful");
+      navigate("/");
+    } catch (error) {
+      console.log(error.message);
+      toast.error("Invalid email or password");
+    }
+  };
 
   return (
     <div className="hero bg-[#E1F0DA] min-h-screen">

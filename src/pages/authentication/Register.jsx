@@ -4,7 +4,7 @@ import useAuth from "../../hooks/useAuth";
 import toast from "react-hot-toast";
 
 const Register = () => {
-  const { createUser } = useAuth();
+  const { createUser, updateUserProfile } = useAuth();
   const navigate = useNavigate();
 
   const {
@@ -20,6 +20,8 @@ const Register = () => {
     try {
       const result = await createUser(email, password);
       console.log(result);
+      await updateUserProfile(name, photo);
+
       toast.success("Register Successfull.");
       navigate("/");
     } catch (error) {

@@ -24,8 +24,12 @@ const Home = () => {
           </div>
         ) : (
           <div>
-            <button className="btn bg-[#B0D9B1] mr-3">Sign in</button>
-            <button className="btn bg-[#B0D9B1]">Sign up</button>
+            <Link to="/login">
+              <button className="btn bg-[#B0D9B1] mr-3">Sign in</button>
+            </Link>
+            <Link to="/register">
+              <button className="btn bg-[#B0D9B1]">Sign up</button>
+            </Link>
           </div>
         )}
       </div>
