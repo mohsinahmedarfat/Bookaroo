@@ -1,8 +1,16 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../shared/Navbar";
 import Footer from "../shared/Footer";
+import useAuth from "../hooks/useAuth";
 
 const Root = () => {
+  const { loading } = useAuth();
+  if (loading)
+    return (
+      <div className="flex justify-center h-screen items-center">
+        <span className="loading loading-spinner loading-md bg-[#1A5319]"></span>
+      </div>
+    );
   return (
     <div>
       <Navbar></Navbar>

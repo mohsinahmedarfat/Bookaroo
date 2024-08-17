@@ -1,17 +1,34 @@
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
+import toast from "react-hot-toast";
 
 const Register = () => {
+  const { createUser } = useAuth();
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {
+    const { name, photo, email, password } = data;
+    console.log(data);
+
+    try {
+      const result = await createUser(email, password);
+      console.log(result);
+      toast.success("Register Successfull.");
+      navigate("/");
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
 
   return (
-    <div className="hero bg-[#E1F0DA] min-h-screen">
+    <div className="hero bg-[#E1F0DA] min-h-screen py-10">
       <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
         <form onSubmit={handleSubmit(onSubmit)} className="card-body">
           <h1 className="text-center text-3xl font-bold">Register Now!</h1>

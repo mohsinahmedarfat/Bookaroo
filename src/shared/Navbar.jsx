@@ -1,6 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
+import useAuth from "../hooks/useAuth";
 
 const Navbar = () => {
+  const { user, loading } = useAuth();
+
   const navItems = (
     <>
       <li className="font-medium">
@@ -67,11 +70,16 @@ const Navbar = () => {
         <div className="hidden lg:flex">
           <ul className="menu-horizontal px-1">{navItems}</ul>
         </div>
-        <div>
-          <Link to="/login">
-            <button className="btn btn-sm bg-[#B0D9B1]">Sign in</button>
-          </Link>
-        </div>
+
+        {user ? (
+          user?.email
+        ) : (
+          <div>
+            <Link to="/login">
+              <button className="btn btn-sm bg-[#B0D9B1]">Sign in</button>
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );
