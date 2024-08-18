@@ -77,8 +77,9 @@ const Navbar = () => {
               >
                 <div className="w-10 rounded-full">
                   <img
-                    alt="Tailwind CSS Navbar component"
-                    src={user?.PhotoURL}
+                    referrerPolicy="no-referrer"
+                    alt="Profile Picture"
+                    src={user?.photoURL}
                   />
                 </div>
               </div>

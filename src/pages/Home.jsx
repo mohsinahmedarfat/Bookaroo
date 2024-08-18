@@ -18,7 +18,7 @@ const Home = () => {
             <h1 className="font-semibold text-2xl">
               Browse{" "}
               <span className="underline hover:text-[#1A5319]">
-                <Link>Books</Link>
+                <Link to="/books">Books</Link>
               </span>
             </h1>
           </div>
